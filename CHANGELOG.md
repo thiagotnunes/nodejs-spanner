@@ -4,6 +4,24 @@
 
 [1]: https://www.npmjs.com/package/nodejs-spanner?activeTab=versions
 
+## [5.3.0](https://www.github.com/googleapis/nodejs-spanner/compare/v5.2.1...v5.3.0) (2020-08-14)
+
+
+### Features
+
+* accept gaxOptions in Database and Session #delete() ([#1206](https://www.github.com/googleapis/nodejs-spanner/issues/1206)) ([2444e8e](https://www.github.com/googleapis/nodejs-spanner/commit/2444e8e45f409e783fcbf059d487d50eb4e12d88))
+* return full nextQuery object in paginated calls ([#1199](https://www.github.com/googleapis/nodejs-spanner/issues/1199)) ([445015f](https://www.github.com/googleapis/nodejs-spanner/commit/445015f82243611fc8de3213957fda352fff4783))
+* Spanner numeric type, add Node 8 tests ([#1189](https://www.github.com/googleapis/nodejs-spanner/issues/1189)) ([c2bc40e](https://www.github.com/googleapis/nodejs-spanner/commit/c2bc40e9b71b658d68c7377d5598cc1a0ef0f75d))
+
+
+### Bug Fixes
+
+* **spanner:** update UpdateBackup to be retryable ([#1194](https://www.github.com/googleapis/nodejs-spanner/issues/1194)) ([e53a247](https://www.github.com/googleapis/nodejs-spanner/commit/e53a2471beff22a61c8e17098ba1a9b6cff3caf0))
+* batch transaction should use a session from the pool ([#1207](https://www.github.com/googleapis/nodejs-spanner/issues/1207)) ([0708baa](https://www.github.com/googleapis/nodejs-spanner/commit/0708baab276def6cad0f0f3c4b7589084380c2d8)), closes [#1200](https://www.github.com/googleapis/nodejs-spanner/issues/1200)
+* retry PDML on Aborted and Internal errors ([#1205](https://www.github.com/googleapis/nodejs-spanner/issues/1205)) ([2b97bac](https://www.github.com/googleapis/nodejs-spanner/commit/2b97bacf4188f2344f23971ec667d3e20f04d420)), closes [#1197](https://www.github.com/googleapis/nodejs-spanner/issues/1197)
+* typeo in nodejs .gitattribute ([#1178](https://www.github.com/googleapis/nodejs-spanner/issues/1178)) ([439d5af](https://www.github.com/googleapis/nodejs-spanner/commit/439d5af2124cc02f24e097d8101f9d6843de9b20))
+* update minimum gax version to 2.7.0 ([#1213](https://www.github.com/googleapis/nodejs-spanner/issues/1213)) ([224de8f](https://www.github.com/googleapis/nodejs-spanner/commit/224de8f0e69e2e951be6596d83079012736cdc20)), closes [#1209](https://www.github.com/googleapis/nodejs-spanner/issues/1209)
+
 ### [5.2.1](https://www.github.com/googleapis/nodejs-spanner/compare/v5.2.0...v5.2.1) (2020-07-07)
 
 
